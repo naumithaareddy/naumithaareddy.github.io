@@ -7,7 +7,7 @@
 }
 
 .row{
-    background-color: rgb(17, 17, 133);
+    background-color: rgb(14, 14, 87);
     color: white;
     display: flex;  
     justify-content: space-between;
@@ -30,8 +30,8 @@
 }
 
 .abt{
-    /*background-color: rgb(135, 135, 175);*/
-    background-color: rgb(163, 163, 209);
+    background-color: rgb(135, 135, 175);
+    /*background-color: rgb(163, 163, 209);*/
     display: flex;  
     justify-content: space-around;
     padding: 20px;
@@ -40,8 +40,9 @@
 }
 
 .proj{
-    /*background-color: rgb(235, 215, 101);*/
-    background-color: rgb(233, 217, 130); 
+    /*background-color: rgb(235, 215, 101);
+    background-color: rgb(233, 217, 130); */
+    background-color: rgb(163, 163, 209);
     justify-content: space-around;
     padding: 20px;
     height: 600px;
@@ -56,8 +57,9 @@
 }
 
 .serv{
-    /*background-color: rgb(193, 126, 224);*/
-    background-color: rgb(210, 160, 233);
+    /*background-color: rgb(193, 126, 224);
+    background-color: rgb(210, 160, 233);*/
+    background-color: rgb(182, 182, 219);
     justify-content: space-around;
     padding: 20px;
     height: 600px;
