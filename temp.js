@@ -39,3 +39,11 @@ db.products.insertMany(
         } 
     ]
 );
+db.products.insertOne(
+    {
+        "name" : "Product 7",
+        "desc" : "2 Black Labs",
+        "price" : 90000 ,
+        "url" : "https://picsum.photos/id/237/200"
+    }
+);
