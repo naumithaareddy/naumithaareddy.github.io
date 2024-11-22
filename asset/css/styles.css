@@ -6,6 +6,12 @@
 
 .container{
     background-color: white;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .row{
@@ -21,7 +27,7 @@
     display: flex;  
     justify-content: space-around;
     padding: 20px;
-    height: 600px;
+    height: 100%;
     align-items: center;
 }
 
@@ -37,7 +43,7 @@
     display: flex;  
     justify-content: space-around;
     padding: 20px;
-    height: 600px;
+    height: 100%;
     align-items: center;
 }
 
@@ -47,7 +53,7 @@
     background-color: rgb(163, 163, 209);
     justify-content: space-around;
     padding: 20px;
-    height: 600px;
+    height: 100%;
     align-items: center;
     text-align: center;
 }
@@ -64,7 +70,7 @@
     background-color: rgb(182, 182, 219);
     justify-content: space-around;
     padding: 20px;
-    height: 600px;
+    height: 100%;
     align-items: center;
 }
 
