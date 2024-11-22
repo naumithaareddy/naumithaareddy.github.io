@@ -39,7 +39,7 @@
 }
 
 .abt{
-    background: linear-gradient(to bottom, rgb(135, 135, 175), rgb(163, 163, 209));
+    background: linear-gradient(to bottom, rgb(195, 203, 238) , rgb(135, 135, 175), rgb(163, 163, 209));
     /*background-color: rgb(163, 163, 209);*/
     display: flex;  
     justify-content: space-around;
