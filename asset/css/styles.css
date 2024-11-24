@@ -90,6 +90,10 @@
     align-items: center;
 }
 
+.con a:hover{
+    text-decoration: underline;
+}
+
 .footer{
     background-color: black;
     color: white;
@@ -139,8 +143,12 @@ a{
     background-size: cover;
 } */
 
-a:hover{
+.container a:hover{
     text-decoration: underline;
+    background-color: white;
+    color: rgb(14, 14, 87);
+    font-style: italic;
+    padding: 5px;
 }
 
 img{
