@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // function sqr(){
+        //     let n = document.getElementById("txtNum").value 
+        //     result.innerHTML = n*n
+        // }
+        const sqr = () => {
+            let n = document.getElementById("txtNum").value 
+            result.innerHTML = n*n
+        }
+
+        const f1 = () => {
+            // alert("Hello World!")
+
+            // let str= ""
+            // const names = ["Naumithaa", "Reddy", "Vanimireddy"]
+            // names.map((value, index) =>{
+            //     str = str + " " + value
+            // })
+            // let m = document.getElementById("result")
+            // m.innerHTML = str
+
+            const prod = {
+                name: "Product 1",
+                price: 35000
+            }
+            const names = ["Naumithaa", "Reddy", "Vanimireddy"]
+            //document.write(names[0])
+            let m = document.getElementById("result")
+            // m.innerHTML = names[2]
+            m.innerHTML = prod.name + ": " + prod.price
+
+        }
+
+        // DataTypes:
+        // var ---> changable
+        // let ---> changable
+        // const ---> not changable
+        // arrays ---> adding strings
+        
+    </script>
+</head>
+<body>
+    <!-- <input type="text" id="txtNum"> -->
+    <button onclick="f1()">Submit</button>
+    <!-- <button onclick="sqr()">Submit</button> -->
+    <hr>
+    <div id="result"></div>
+</body>
+</html>
